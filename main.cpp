@@ -1,9 +1,11 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+   cout << "Enter A and B: ";
+   int a, b;
+   cin >> a >> b;
 }
